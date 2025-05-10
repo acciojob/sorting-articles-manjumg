@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body {
+  background-color: #282c34;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h2 {
+  text-align: center;
+  color: #61dafb;
+}
+
+ul#band {
+  padding-left: 0;
+}
+
+ul#band li {
+  list-style-type: none;
+  background-color: #3a3f47;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+ul#band li:hover {
+  background-color: #50555e;
+}
